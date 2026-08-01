@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class task1 {
     public static void main() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите строку: Я тестую чудово. Що ще потрібно?");
+        System.out.println("Enter a string: I am testing wonderfully. What else is needed?");
 
         String string1 = scanner.next();
 
