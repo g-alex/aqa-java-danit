@@ -12,7 +12,7 @@ public class task6 {
             array[i] = random.nextInt(101) - 50;
         }
 
-        System.out.println("Массив из 45 элементов:");
+        System.out.println("Array of 45 elements:");
         System.out.println(Arrays.toString(array));
 
         int min = array[0];
@@ -27,7 +27,7 @@ public class task6 {
             }
         }
 
-        System.out.println("\nМинимальный элемент: " + min);
-        System.out.println("Максимальный элемент: " + max);
+        System.out.println("\nMinimum element: " + min);
+        System.out.println("Maximum element: " + max);
     }
 }

@@ -7,7 +7,7 @@ public class task1 {
         Scanner scanner = new Scanner(System.in);
         StringBuilder sentence = new StringBuilder();
 
-        System.out.println("Вводите слова по одному. Для завершения введите STOP:");
+        System.out.println("Enter words one by one. Type STOP to finish:");
 
         while (true) {
             String word = scanner.next();
@@ -19,7 +19,7 @@ public class task1 {
             sentence.append(word).append(" ");
         }
 
-        System.out.println("\nИтоговое предложение:");
+        System.out.println("\nFinal sentence:");
         System.out.println(sentence.toString().trim());
     }
 }

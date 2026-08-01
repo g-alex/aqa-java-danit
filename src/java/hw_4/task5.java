@@ -14,8 +14,8 @@ public class task5 {
             numbers[i] = random.nextInt(100); // Числа от 0 до 99
         }
 
-        System.out.println("Сгенерированный массив: " + Arrays.toString(numbers));
-        System.out.print("Введите число для поиска: ");
+        System.out.println("Generated array: " + Arrays.toString(numbers));
+        System.out.print("Enter a number to search for: ");
         int userNumber = scanner.nextInt();
 
         boolean isFound = false;
@@ -27,9 +27,9 @@ public class task5 {
         }
 
         if (isFound) {
-            System.out.println("Число " + userNumber + " ЕСТЬ в массиве!");
+            System.out.println("Number " + userNumber + " IS in the array!");
         } else {
-            System.out.println("Числа " + userNumber + " НЕТ в массиве.");
+            System.out.println("Number " + userNumber + " is NOT in the array.");
         }
     }
 }

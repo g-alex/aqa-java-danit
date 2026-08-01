@@ -10,7 +10,7 @@ public class task4 {
         int[] hours = {10, 12, 14, 16, 18, 20};
         String[] places = {"школу", "магазин", "церква", "тренажерний зал", "кіно", "поліклініку"};
 
-        System.out.println("Введите три индекса через пробел или Enter (для имен, часов и мест):");
+        System.out.println("Enter three indices separated by space or Enter (for names, hours and places):");
         int nameIndex = scanner.nextInt();
         int placeIndex = scanner.nextInt();
         int hourIndex = scanner.nextInt();
@@ -19,6 +19,6 @@ public class task4 {
         String place = places[placeIndex];
         int hour = hours[hourIndex];
 
-        System.out.println(name + " буде йти до " + place + " о " + hour + ":00");
+        System.out.println(name + " will go to " + place + " at " + hour + ":00");
     }
 }
