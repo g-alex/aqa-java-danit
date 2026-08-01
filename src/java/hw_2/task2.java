@@ -7,7 +7,7 @@ public class task2 {
         String[] words = string.split("[,\\s]+");
 
         for (int i = 0; i < words.length; i++) {
-            System.out.println("Слово" + (i + 1) + " = " + words[i] +
+            System.out.println("Word" + (i + 1) + " = " + words[i] +
                     ", Length of this word = " + words[i].length());
         }
 
