@@ -10,11 +10,11 @@ class Vehicle {
     }
 
     public void move() {
-        System.out.println("Транспорт движется со скоростью " + speed + " км/ч");
+        System.out.println("Vehicle is moving at speed " + speed + " km/h");
     }
 
     public void stop() {
-        System.out.println("Транспорт " + name + " остановился");
+        System.out.println("Vehicle " + name + " has stopped");
     }
 }
 
@@ -28,7 +28,7 @@ class Car extends Vehicle {
 
     @Override
     public void move() {
-        System.out.println("Транспорт " + name + " движется со скоростью " + speed + " км/ч с кол-вом людей: " + passengerCapacity);
+        System.out.println("Vehicle " + name + " is moving at speed " + speed + " km/h with passengers: " + passengerCapacity);
     }
 }
 
@@ -42,7 +42,7 @@ class Truck extends Vehicle {
 
     @Override
     public void move() {
-        System.out.println("Транспорт " + name + " с грузоподъемностью " + loadCapacity + " т движется со скоростью " + speed + " км/ч");
+        System.out.println("Vehicle " + name + " with load capacity " + loadCapacity + " t is moving at speed " + speed + " km/h");
     }
 }
 

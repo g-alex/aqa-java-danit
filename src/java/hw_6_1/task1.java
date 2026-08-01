@@ -2,29 +2,29 @@ package hw_6;
 
 class Animal {
     public void eat() {
-        System.out.println("Я ем");
+        System.out.println("I am eating");
     }
 
     public void sleep() {
-        System.out.println("Я сплю");
+        System.out.println("I am sleeping");
     }
 }
 
 class Bird extends Animal {
     public void fly() {
-        System.out.println("Я летаю");
+        System.out.println("I am flying");
     }
 }
 
 class Fish extends Animal {
     public void swim() {
-        System.out.println("Я плаваю");
+        System.out.println("I am swimming");
     }
 }
 
 class Dog extends Animal {
     public void bark() {
-        System.out.println("Гав-гав");
+        System.out.println("Woof-woof");
     }
 }
 
