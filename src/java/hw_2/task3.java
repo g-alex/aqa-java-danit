@@ -10,6 +10,6 @@ public class task3 {
 
         int count = parts.length - 1;
 
-        System.out.println("Символ 'a' (и 'A') встречается в тексте: " + count + " раз(а).");
+        System.out.println("Symbol 'a' (and 'A') occurs in the text: " + count + " time(s).");
     }
 }

@@ -8,7 +8,7 @@ public class task2 {
 
         for (int i = 0; i < words.length; i++) {
             System.out.println("Слово" + (i + 1) + " = " + words[i] +
-                    ", Длина этого слова = " + words[i].length());
+                    ", Length of this word = " + words[i].length());
         }
 
 
@@ -22,6 +22,6 @@ public class task2 {
             }
         }
 
-        System.out.println("\nПервое слово длиннее других: " + isFirstLongest);
+        System.out.println("\nThe first word is longer than others: " + isFirstLongest);
     }
 }
