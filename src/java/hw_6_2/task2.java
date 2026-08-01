@@ -35,20 +35,20 @@ public class task2 {
         ReverseProcessor reverseProcessor = new ReverseProcessor();
         TrimProcessor trimProcessor = new TrimProcessor();
 
-        String testText = "  Привет. Ментор. Как дела?.  ";
+        String testText = "  Hello. Mentor. How are you?.  ";
 
-        System.out.println("Исходный текст: \"" + testText + "\"\n");
+        System.out.println("Original text: \"" + testText + "\"\n");
 
         System.out.println("1. UpperCaseProcessor:");
-        System.out.println("Результат process: " + upperProcessor.process(testText));
-        System.out.println("Результат removeDigits (без точек): " + upperProcessor.removeDigits(testText));
+        System.out.println("Result of process: " + upperProcessor.process(testText));
+        System.out.println("Result of removeDigits (without dots): " + upperProcessor.removeDigits(testText));
 
         System.out.println("\n2. ReverseProcessor:");
-        System.out.println("Результат process: " + reverseProcessor.process(testText));
-        System.out.println("Результат removeDigits (без точек): " + reverseProcessor.removeDigits(testText));
+        System.out.println("Result of process: " + reverseProcessor.process(testText));
+        System.out.println("Result of removeDigits (without dots): " + reverseProcessor.removeDigits(testText));
 
         System.out.println("\n3. TrimProcessor:");
-        System.out.println("Результат process: \"" + trimProcessor.process(testText) + "\"");
-        System.out.println("Результат removeDigits (без точек): \"" + trimProcessor.removeDigits(testText) + "\"");
+        System.out.println("Result of process: \"" + trimProcessor.process(testText) + "\"");
+        System.out.println("Result of removeDigits (without dots): \"" + trimProcessor.removeDigits(testText) + "\"");
     }
 }

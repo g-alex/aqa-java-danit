@@ -24,7 +24,7 @@ class Square extends Figure {
 
     @Override
     public String toString() {
-        return "Квадрат со стороной = " + side;
+        return "Square with side = " + side;
     }
 }
 
@@ -56,7 +56,7 @@ class Triangle extends Figure {
 
     @Override
     public String toString() {
-        return "Треугольник [основание=" + base + ", высота=" + height + "]";
+        return "Triangle [base=" + base + ", height=" + height + "]";
     }
 }
 
@@ -80,7 +80,7 @@ class Circle extends Figure {
 
     @Override
     public String toString() {
-        return "Круг с радиусом = " + radius;
+        return "Circle with radius = " + radius;
     }
 }
 
@@ -90,19 +90,19 @@ public class task1 {
         Figure triangle = new Triangle(10, 5, 10, 8, 6);
         Figure circle = new Circle(4);
 
-        System.out.println("=== РАБОТА С КВАДРАТОМ ===");
-        System.out.println("Информация: " + square);
-        System.out.println("Площадь: " + square.getArea());
-        System.out.println("Периметр: " + square.getPerimeter());
+        System.out.println("=== WORKING WITH SQUARE ===");
+        System.out.println("Information: " + square);
+        System.out.println("Area: " + square.getArea());
+        System.out.println("Perimeter: " + square.getPerimeter());
 
-        System.out.println("\n=== РАБОТА С ТРЕУГОЛЬНИКОМ ===");
-        System.out.println("Информация: " + triangle);
-        System.out.println("Площадь: " + triangle.getArea());
-        System.out.println("Периметр: " + triangle.getPerimeter());
+        System.out.println("\n=== WORKING WITH TRIANGLE ===");
+        System.out.println("Information: " + triangle);
+        System.out.println("Area: " + triangle.getArea());
+        System.out.println("Perimeter: " + triangle.getPerimeter());
 
-        System.out.println("\n=== РАБОТА С КРУГОМ ===");
-        System.out.println("Информация: " + circle);
-        System.out.println("Площадь: " + circle.getArea());
-        System.out.println("Периметр: " + circle.getPerimeter());
+        System.out.println("\n=== WORKING WITH CIRCLE ===");
+        System.out.println("Information: " + circle);
+        System.out.println("Area: " + circle.getArea());
+        System.out.println("Perimeter: " + circle.getPerimeter());
     }
 }
