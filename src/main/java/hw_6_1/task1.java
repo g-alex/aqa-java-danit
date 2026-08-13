@@ -1,4 +1,4 @@
-package hw_6;
+package hw_6_1;
 
 class Animal {
     public void eat() {
