@@ -1,4 +1,4 @@
-package task2;
+package hw_9.task2;
 
 
 public class Vehicle {

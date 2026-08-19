@@ -1,4 +1,4 @@
-package task1;
+package hw_9.task1;
 
 import java.util.ArrayList;
 import java.util.Collections;

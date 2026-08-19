@@ -1,4 +1,4 @@
-package task1;
+package hw_9.task1;
 
 
 public class Car implements Comparable<Car> {

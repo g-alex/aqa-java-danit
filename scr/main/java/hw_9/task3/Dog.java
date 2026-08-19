@@ -1,4 +1,4 @@
-package task3;
+package hw_9.task3;
 
 public class Dog implements Animal {
     public void speak(){

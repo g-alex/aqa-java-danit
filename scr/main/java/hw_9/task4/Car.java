@@ -1,4 +1,4 @@
-package task4;
+package hw_9.task4;
 
 public class Car {
     private String model;
