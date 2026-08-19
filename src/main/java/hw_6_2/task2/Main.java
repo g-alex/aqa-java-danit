@@ -1,35 +1,6 @@
-package hw_6_2;
+package hw_6_2.task2;
 
-interface TextProcessor {
-    String process(String text);
-
-    default String removeDigits(String text) {
-        return text.replace(".", "");
-    }
-}
-
-class UpperCaseProcessor implements TextProcessor {
-    @Override
-    public String process(String text) {
-        return text.toUpperCase();
-    }
-}
-
-class ReverseProcessor implements TextProcessor {
-    @Override
-    public String process(String text) {
-        return new StringBuilder(text).reverse().toString();
-    }
-}
-
-class TrimProcessor implements TextProcessor {
-    @Override
-    public String process(String text) {
-        return text.trim();
-    }
-}
-
-public class task2 {
+public class Main {
     public static void main(String[] args) {
         UpperCaseProcessor upperProcessor = new UpperCaseProcessor();
         ReverseProcessor reverseProcessor = new ReverseProcessor();
