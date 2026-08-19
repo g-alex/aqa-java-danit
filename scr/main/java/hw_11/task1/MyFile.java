@@ -1,4 +1,4 @@
-package task1;
+package hw_11.task1;
 
 public class MyFile implements CanBeClosed{
 
