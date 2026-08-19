@@ -1,4 +1,4 @@
-package task1;
+package hw_12.task1;
 
 public class Calculator {
 

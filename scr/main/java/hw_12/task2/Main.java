@@ -1,6 +1,5 @@
-package task2;
+package hw_12.task2;
 
-import java.util.List;
 import java.util.Optional;
 
 public class Main {
