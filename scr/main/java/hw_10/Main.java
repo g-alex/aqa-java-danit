@@ -1,4 +1,4 @@
-package Task;
+package hw_10;
 
 import java.time.DayOfWeek;
 import java.time.Duration;
