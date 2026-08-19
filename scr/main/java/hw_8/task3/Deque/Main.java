@@ -1,4 +1,4 @@
-package task3.Deque;
+package hw_8.task3.Deque;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

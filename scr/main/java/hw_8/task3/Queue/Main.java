@@ -1,4 +1,4 @@
-package task3.Queue;
+package hw_8.task3.Queue;
 
 import java.util.LinkedList;
 import java.util.Queue;

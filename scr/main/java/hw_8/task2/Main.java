@@ -1,4 +1,4 @@
-package task2;
+package hw_8.task2;
 
 import java.util.ArrayList;
 import java.util.HashSet;
