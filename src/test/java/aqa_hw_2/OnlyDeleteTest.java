@@ -1,6 +1,5 @@
 package aqa_hw_2;
 
-import aqa_hw_2.dto.NotFoundPetDto;
 import io.restassured.response.Response;
 import org.junit.Assert;
 import org.junit.Test;
