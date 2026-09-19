@@ -12,13 +12,14 @@
         <maven.compiler.source>26</maven.compiler.source>
         <maven.compiler.target>26</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.surefire.version>3.5.6</maven.surefire.version>
-        <maven.compiler.version>3.15.0</maven.compiler.version>
+        <rest.assured.version>6.0.1</rest.assured.version>
+        <selenide-version>7.17.0</selenide-version>
+        <aspectj.version>1.9.25.1</aspectj.version>
         <allure.version>2.35.4</allure.version>
         <testng.version>7.12.0</testng.version>
-        <selenide.version>7.17.0</selenide.version>
-        <restassured.version>6.0.1</restassured.version>
-        <jackson.version>3.2.1</jackson.version>
+        <maven.plugins.version>3.6.0-M1</maven.plugins.version>
+        <cucumber.java.version>7.34.7</cucumber.java.version>
+        <cucumber.junit.version>7.34.7</cucumber.junit.version>
     </properties>
 
     <dependencies>
@@ -43,8 +44,7 @@
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
-            <version>${restassured.version}</version>
-            <scope>test</scope>
+            <version>${rest.assured.version}</version>
         </dependency>
         <dependency>
             <groupId>tools.jackson.core</groupId>
@@ -83,9 +83,15 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.12.0</version>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>${cucumber.java.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>${cucumber.junit.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
