@@ -1,4 +1,4 @@
-package final_project.testrail;
+package testrail;
 
 public class TestrailDto {
 
@@ -16,4 +16,3 @@ public class TestrailDto {
         this.status_id = status_id;
     }
 }
-

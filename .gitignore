@@ -4,4 +4,5 @@ reports
 .idea
 *.iml
 /target
+NOTES.md
 /allure-results
